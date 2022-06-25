@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://hyyxr.github.io</id>
+    <id>http://localhost:4000</id>
     <title>Gridea</title>
-    <updated>2022-06-25T07:30:22.942Z</updated>
+    <updated>2022-06-25T07:31:03.590Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://hyyxr.github.io"/>
-    <link rel="self" href="https://hyyxr.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://hyyxr.github.io/images/avatar.png</logo>
-    <icon>https://hyyxr.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hadoop 伪分布式]]></title>
-        <id>https://hyyxr.github.io/post/hadoop-wei-fen-bu-shi/</id>
-        <link href="https://hyyxr.github.io/post/hadoop-wei-fen-bu-shi/">
+        <id>http://localhost:4000/post/hadoop-wei-fen-bu-shi/</id>
+        <link href="http://localhost:4000/post/hadoop-wei-fen-bu-shi/">
         </link>
         <updated>2022-06-25T02:24:13.000Z</updated>
         <content type="html"><![CDATA[<p>Hadoop是一个由Apache基金会所开发的分布式系统基础架构。<br>
@@ -27,25 +27,25 @@ Apache Hadoop：Hadoop最原始（最基础）的版本。<br>
 JDK版本：JDK-8<br>
 Hadoop版本：Hadoop-3.0.3</p>
 <p>系统镜像下载地址见&lt;&lt;Linux镜像&gt;&gt;，下载完成后新建虚拟机，选择稍后安装操作系统。<br>
-<img src="https://hyyxr.github.io/post-images/1656125366519.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1656125366519.png" alt="" loading="lazy"><br>
 点击下一步，选择客户机操作系统为Linux，版本为unbuntu64位。<br>
-<img src="https://hyyxr.github.io/post-images/1656125930538.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1656125930538.png" alt="" loading="lazy"><br>
 点击下一步，自定义虚拟机位置与名称。<br>
-<img src="https://hyyxr.github.io/post-images/1656126755943.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1656126755943.png" alt="" loading="lazy"><br>
 点击下一步，选择虚拟机磁盘大小。<br>
-<img src="https://hyyxr.github.io/post-images/1656127289807.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1656127289807.png" alt="" loading="lazy"><br>
 点击下一步，完成。<br>
-<img src="https://hyyxr.github.io/post-images/1656127312023.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1656127312023.png" alt="" loading="lazy"><br>
 这样就成功创建了一个虚拟机，接下来设置虚拟机镜像文件。编辑虚拟机设置-&gt;选择CD/DVD-&gt;使用ISO镜像文件-&gt;选取镜像文件。设置完成后接下来就可以打开虚拟机安装系统了。<br>
-<img src="https://hyyxr.github.io/post-images/1656138346531.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1656138346531.png" alt="" loading="lazy"></p>
 <p>接下来打开虚拟机，开始安装unbuntu。初始语言选择English(中文可能安装过程中遇到bug)。<br>
-<img src="https://hyyxr.github.io/post-images/1656138971351.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1656138971351.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux镜像]]></title>
-        <id>https://hyyxr.github.io/post/linux-jing-xiang/</id>
-        <link href="https://hyyxr.github.io/post/linux-jing-xiang/">
+        <id>http://localhost:4000/post/linux-jing-xiang/</id>
+        <link href="http://localhost:4000/post/linux-jing-xiang/">
         </link>
         <updated>2022-06-25T01:18:49.000Z</updated>
         <content type="html"><![CDATA[<p>1、Linux官方镜像<br>

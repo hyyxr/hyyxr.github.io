@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hyyxr.github.io</id>
+    <title>Gridea</title>
+    <updated>2022-06-25T07:24:33.454Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hyyxr.github.io"/>
+    <link rel="self" href="https://hyyxr.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://hyyxr.github.io/images/avatar.png</logo>
+    <icon>https://hyyxr.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Hadoop 伪分布式]]></title>
+        <id>https://hyyxr.github.io/post/hadoop-wei-fen-bu-shi/</id>
+        <link href="https://hyyxr.github.io/post/hadoop-wei-fen-bu-shi/">
+        </link>
+        <updated>2022-06-25T02:24:13.000Z</updated>
+        <content type="html"><![CDATA[<p>Hadoop是一个由Apache基金会所开发的分布式系统基础架构。<br>
+Apache Hadoop：Hadoop最原始（最基础）的版本。<br>
+官网：http://hadoop.apache.org/releases.html</p>
+<p>Hadoop各个版本下载地址：https://archive.apache.org/dist/hadoop/common/<br>
+清华镜像源：https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/</p>
+<p>本文环境：<br>
+虚拟机：VMWare-15.x。<br>
+系统镜像：Unbuntu-16.04-server<br>
+JDK版本：JDK-8<br>
+Hadoop版本：Hadoop-3.0.3</p>
+<p>系统镜像下载地址见&lt;&lt;Linux镜像&gt;&gt;，下载完成后新建虚拟机，选择稍后安装操作系统。<br>
+<img src="https://hyyxr.github.io/post-images/1656125366519.png" alt="" loading="lazy"><br>
+点击下一步，选择客户机操作系统为Linux，版本为unbuntu64位。<br>
+<img src="https://hyyxr.github.io/post-images/1656125930538.png" alt="" loading="lazy"><br>
+点击下一步，自定义虚拟机位置与名称。<br>
+<img src="https://hyyxr.github.io/post-images/1656126755943.png" alt="" loading="lazy"><br>
+点击下一步，选择虚拟机磁盘大小。<br>
+<img src="https://hyyxr.github.io/post-images/1656127289807.png" alt="" loading="lazy"><br>
+点击下一步，完成。<br>
+<img src="https://hyyxr.github.io/post-images/1656127312023.png" alt="" loading="lazy"><br>
+这样就成功创建了一个虚拟机，接下来设置虚拟机镜像文件。编辑虚拟机设置-&gt;选择CD/DVD-&gt;使用ISO镜像文件-&gt;选取镜像文件。设置完成后接下来就可以打开虚拟机安装系统了。<br>
+<img src="https://hyyxr.github.io/post-images/1656138346531.png" alt="" loading="lazy"></p>
+<p>接下来打开虚拟机，开始安装unbuntu。初始语言选择English(中文可能安装过程中遇到bug)。<br>
+<img src="https://hyyxr.github.io/post-images/1656138971351.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux镜像]]></title>
+        <id>https://hyyxr.github.io/post/linux-jing-xiang/</id>
+        <link href="https://hyyxr.github.io/post/linux-jing-xiang/">
+        </link>
+        <updated>2022-06-25T01:18:49.000Z</updated>
+        <content type="html"><![CDATA[<p>1、Linux官方镜像<br>
+Deepin镜像<br>
+https://www.deepin.org/mirrors/releases/</p>
+<p>Mint 镜像<br>
+https://www.linuxmint.com/mirrors.php</p>
+<p>kernel 镜像站：<br>
+http://mirrors.kernel.org/</p>
+<p>Fedora 官方镜像站：<br>
+http://mirrors.fedoraproject.org/publiclist<br>
+https://torrents.fedoraproject.org/<br>
+https://admin.fedoraproject.org/mirrormanager/mirrors</p>
+<p>Debian 全球镜像站：<br>
+http://www.debian.org/mirror/<br>
+https://cdimage.debian.org/cdimage/archive/</p>
+<p>Ubuntu 官方镜像站：<br>
+http://releases.ubuntu.com/releases/<br>
+http://cdimage.ubuntu.com/<br>
+https://launchpad.net/ubuntu/+cdmirrors<br>
+http://old-releases.ubuntu.com/releases/</p>
+<p>SUSE官方镜像站：<br>
+http://download.opensuse.org/<br>
+https://mirrors.opensuse.org/</p>
+<p>CentOS：<br>
+http://mirror-status.centos.org/#cn</p>
+<p>Archlinux：<br>
+https://www.archlinux.org/mirrors/status/</p>
+<p>Apache：<br>
+http://www.apache.org/mirrors/#cn</p>
+<p>Cygwin：<br>
+https://www.cygwin.com/mirrors.html</p>
+<p>kali linux:<br>
+https://www.kali.org/downloads/</p>
+<p>2、企业机构开源镜像站<br>
+网易开源镜像站：<br>
+http://mirrors.163.com/</p>
+<p>搜狐开源镜像站：<br>
+http://mirrors.sohu.com/</p>
+<p>首都在线科技股份有限公司：<br>
+http://mirrors.yun-idc.com/</p>
+<p>中国互联网信息中心:<br>
+http://mirrors.cnnic.cn (Apache镜像)</p>
+<p>阿里云开源镜像：<br>
+http://mirrors.aliyun.com/</p>
+<p>常州贝特康姆软件技术有限公司(原cn99）：<br>
+http://centos.bitcomm.cn/</p>
+<p>开源世界：<br>
+http://mirror.lupaworld.com/</p>
+<p>3、国内高校的开源镜像站<br>
+电子科技大学:<br>
+http://ubuntu.uestc.edu.cn/</p>
+<p>上海交通大学：<br>
+http://ftp.sjtu.edu.cn/ (IPv4 only)<br>
+http://ftp6.sjtu.edu.cn(IPv6 only)</p>
+<p>中国科学技术大学：<br>
+http://mirrors.ustc.edu.cn/ (IPv4+IPv6)<br>
+http://mirrors4.ustc.edu.cn/<br>
+http://mirrors6.ustc.edu.cn/</p>
+<p>东北大学：<br>
+http://mirror.neu.edu.cn/ (IPv4 only)<br>
+http://mirror.neu6.edu.cn/ (IPv6 only)</p>
+<p>北京交通大学：<br>
+http://mirror.bjtu.edu.cn (IPv4 only)<br>
+http://mirror6.bjtu.edu.cn<br>
+http://debian.bjtu.edu.cn</p>
+<p>北京化工大学：<br>
+http://ubuntu.buct.edu.cn/</p>
+<p>天津大学 :<br>
+http://mirror.tju.edu.cn/</p>
+<p>厦门大学：<br>
+http://mirrors.xmu.edu.cn/</p>
+<p>浙江大学：<br>
+http://mirrors.zju.edu.cn/</p>
+<p>中山大学镜像：<br>
+http://mirror.sysu.edu.cn/</p>
+<p>华中科技大学：<br>
+http://mirrors.hustunique.com/</p>
+<p>上海交通大学：<br>
+http://ftp.sjtu.edu.cn/html/resources.xml</p>
+<p>华中科技大学：<br>
+http://mirror.hust.edu.cn/</p>
+<p>清华大学：<br>
+http://mirrors.tuna.tsinghua.edu.cn/</p>
+<p>北京理工大学：<br>
+http://mirror.bit.edu.cn/web/</p>
+<p>兰州大学：<br>
+http://mirror.lzu.edu.cn/</p>
+<p>中国科技大学：<br>
+http://mirrors.ustc.edu.cn/</p>
+<p>大连东软信息学院：<br>
+http://mirrors.neusoft.edu.cn/</p>
+<p>东北大学：<br>
+http://mirror.neu.edu.cn/</p>
+<p>大连理工大学：<br>
+http://mirror.dlut.edu.cn/</p>
+<p>哈尔滨工业大学：<br>
+http://run.hit.edu.cn/html/</p>
+<p>北京交通大学：<br>
+http://mirror.bjtu.edu.cn/cn/</p>
+<p>天津大学：<br>
+http://mirror.tju.edu.cn</p>
+<p>中国地质大学：<br>
+http://mirrors.cug.edu.cn/</p>
+<p>浙江大学：<br>
+http://mirrors.zju.edu.cn/</p>
+<p>厦门大学：<br>
+http://mirrors.xmu.edu.cn/</p>
+<p>中山大学：<br>
+http://mirror.sysu.edu.cn/</p>
+<p>重庆大学：<br>
+http://mirrors.cqu.edu.cn/</p>
+<p>北京化工大学：<br>
+http://ubuntu.buct.edu.cn/</p>
+<p>南阳理工学院：<br>
+http://mirror.nyist.edu.cn/</p>
+<p>中国科学院：<br>
+http://www.opencas.org/mirrors/</p>
+<p>电子科技大学：<br>
+http://ubuntu.uestc.edu.cn/</p>
+<p>电子科技大学星辰工作室：<br>
+http://mirrors.stuhome.net/</p>
+<p>西北农林科技大学：<br>
+http://mirrors.nwsuaf.edu.cn/</p>
+<p>香港中文大学 ：<br>
+http://ftp.cuhk.edu.hk/pub/Linux/</p>
+<p>香港浸会大学 ：<br>
+http://ftp.comp.hkbu.edu.hk/pub/</p>
+<p>Rackspace HK：<br>
+http://hkg.mirror.rackspace.com</p>
+<p>4、分类镜像服务器<br>
+RedHat Enterprise Linux 红帽Linux镜像站点（主要是RHEL资源）：<br>
+http://eduunix.ccut.edu.cn/index2/unixsystem/RedHat/<br>
+http://www.mmnt.net/db/0/0/volt.iem.pw.edu.pl/pub/Linux/RedHat<br>
+http://ftp.corbina.net/pub/Linux/redhat/</p>
+<p>首都在线科技股份有限公司（英文名Capital Online Data Service）：<br>
+http://mirrors.yun-idc.com/</p>
+<p>中国电信天翼云：<br>
+http://mirrors.ctyun.cn/</p>
+<p>noc.im：http://mirrors.noc.im/</p>
+<p>常州贝特康姆软件技术有限公司：<br>
+http://centos.bitcomm.cn/</p>
+<p>公云PubYun（母公司为贝特康姆）：<br>
+http://mirrors.pubyun.com/</p>
+<p>Linux运维派：<br>
+http://mirrors.skyshe.cn/</p>
+<p>中国互联网络信息中心：<br>
+http://mirrors.cnnic.cn/</p>
+<p>Fayea工作室：<br>
+http://apache.fayea.com/</p>
+<p>中国科学院：<br>
+http://mirrors.opencas.ac.cn/android/repository/</p>
+<p>南洋理工学院：<br>
+http://mirror.nyist.edu.cn/android/repository/</p>
+<p>中国科学院：<br>
+http://mirrors.opencas.cn/android/repository/</p>
+<p>5、国外各大学的镜像站<br>
+北陆先端科学技术大学院大学JAIST:<br>
+http://ftp.jaist.ac.jp/pub/</p>
+<p>卡内基梅隆大学CMU:<br>
+http://www.club.cc.cmu.edu/pub</p>
+<p>麻省理工学院MIT:<br>
+http://mirrors.mit.edu/</p>
+<p>哥伦比亚大学:<br>
+http://mirror.cc.columbia.edu/</p>
+<p>俄勒冈州立大学:<br>
+http://ftp.osuosl.org/pub</p>
+<p>伊利诺伊大学厄巴纳-香槟分校:<br>
+http://cosmos.cites.illinois.edu/</p>
+<p>杜克大学:<br>
+http://archive.linux.duke.edu/</p>
+<p>约翰·霍普金斯大学:<br>
+http://mirrors.acm.jhu.edu/</p>
+<p>俄罗斯镜像服务器：<br>
+http://ftp.kddilabs.jp/<br>
+http://ftp.jaist.ac.jp/pub/<br>
+http://ftp.kaist.ac.kr/<br>
+http://mirror.karneval.cz/pub/<br>
+http://ftp.gwdg.de/pub/<br>
+http://ftp.estpak.ee/pub/</p>
+]]></content>
+    </entry>
+</feed>
